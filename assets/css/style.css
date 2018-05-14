@@ -215,38 +215,39 @@ textarea {
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 980px) {
- .head-position {
-     width: 860px;
- }
+    .head-position {
+        width: 860px;
+    }
 
- .main-content {
-     width: 600px;
-     margin-left: 60px;
- }
+    .main-content {
+        width: 600px;
+        margin-left: 60px;
+    }
 
- .project-area {
-     width: 100%;
-     margin-left: 30px;
- }
+    .project-area {
+        width: 100%;
+        margin-left: 30px;
+    }
 
- .project-name {
-     margin: 0 auto;
-     flex: 1;
- }
+    .project-name {
+        margin: 0 auto;
+        flex: 1;
+    }
 
- .projects,
- .text-block {
-     margin-right: 0;
-     margin-left: 0;
- }
+    .projects,
+    .text-block {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
+    
 }
 
 @media screen and (max-width: 640px) {
-
+    .head-position {
+        width: 100%;
+    }
 }
